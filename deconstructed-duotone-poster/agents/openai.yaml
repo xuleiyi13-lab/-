@@ -1,0 +1,19 @@
+interface:
+  display_name: Deconstructed Duotone Poster
+  short_description: 将图片重构为高留白、平面化的双色解构海报
+  default_prompt: Use $deconstructed-duotone-poster to create a spacious duotone print, choosing
+    a portrait 3:4 nine-square or four-panel layout, or a landscape 4:3 six-square or
+    four-panel layout, from the request and source aspect ratio, with compact exact-
+    square panels, enlarged equal paper margins, strongly reduced flat masses, pale
+    ivory paper, inward hand-printed edges, separate strong glow, and subject-derived
+    footer icons.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
+
